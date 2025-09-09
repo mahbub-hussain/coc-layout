@@ -20,6 +20,7 @@ button:hover { background:#0056b3;}
 
 <script>
 const canvas = document.getElementById("canvas");
+    canvas.style.height= window.innerHeight/100*80
 const ctx = canvas.getContext("2d");
 const button = document.getElementById("generateBtn");
 const numPointsInput = document.getElementById("numPoints");
@@ -1764,3 +1765,4 @@ button.addEventListener("click", generateRectangles);
   </script>
 </body>
 </html> -->
+
